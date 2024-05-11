@@ -1,0 +1,52 @@
+.carousel-container {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    height: 280px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    overflow: hidden;
+  }
+  
+  .hero-title {
+    padding-top: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: flex-start;
+    width: calc(100% + 600px); /* Add extra width for seamless loop */
+    animation: carouselLoop 10s linear infinite; /* Animation for infinite loop */
+  }
+  
+  .carousel img {
+    margin-right: 20px;
+    height: auto;
+  }
+  
+  .imgclass {
+    width: 100px;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel img {
+      margin-right: 10px;
+    }
+    .carousel-container {
+        height: 300px;
+        }
+
+  }
+  
+  @keyframes carouselLoop {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }

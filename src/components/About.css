@@ -1,0 +1,29 @@
+.about-section {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-left {
+    padding-right: 20px;
+  }
+  
+  .founder-photo {
+    margin-bottom: 20px;
+  }
+  
+  .timeline {
+    position: relative;
+  }
+  
+  .timeline-point {
+    margin-bottom: 20px;
+  }
+  
+  .timeline-point p {
+    margin-left: 30px;
+  }
+  

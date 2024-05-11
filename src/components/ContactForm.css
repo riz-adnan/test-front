@@ -1,0 +1,40 @@
+
+.containeres {
+    top: 100px;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Styles for the form heading */
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Styles for form labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Styles for form fields */
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for submit button */
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

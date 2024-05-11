@@ -1,0 +1,28 @@
+.quote-section {
+    background-color: #f8f9fa; /* Set background color */
+    padding: 50px 0; /* Add padding */
+  }
+  
+  .quote-box {
+    background-color: #fff; /* Set box background color */
+    border-radius: 10px; /* Add border radius */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center content vertically */
+  }
+  
+  .quotation-logo {
+    margin-right: 20px; /* Add spacing between logo and text */
+  }
+  
+  .quotation-logo img {
+    width: 50px; /* Set logo width */
+  }
+  
+  .quote-text p {
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Set font size */
+    font-style: italic; /* Set font style to italic */
+  }
+  

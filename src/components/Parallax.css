@@ -1,0 +1,39 @@
+.parallax-section {
+  position: relative;
+  min-height: 700px; /* Adjust height as needed */
+  padding-top: 100px; /* Adjust padding as needed */
+  padding-bottom: 100px;
+  color: black; /* Adjust padding as needed */
+}
+
+.parallax-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://img.freepik.com/premium-photo/human-resources-concept-with-hand_23-2150389097.jpg?size=626&ext=jpg&ga=GA1.1.756643771.1715395822&semt=sph"); 
+  /* Replace with your image path */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+   /* Add blur effect */
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 2; /* Ensure content sits above background image */
+  color: #f5f5dc; /* Set text color to white */
+}
+
+.counter {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.counter-row {
+  margin-top: 50px; /* Adjust margin as needed */
+}
